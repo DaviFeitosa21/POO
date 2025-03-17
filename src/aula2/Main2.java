@@ -12,8 +12,7 @@ public class Main2 {
 		System.out.println("Digite um número:");
 		numeroDigitado = sc.nextInt();
 		
-		
-		for(int i = 0; i <= numeroDigitado; i++) {
+		for(int i = 0; i < numeroDigitado; i++) {
 			i += i;
 			System.out.println(i);
 		}
